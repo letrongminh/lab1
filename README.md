@@ -19,7 +19,8 @@
 > **_ВАЖНО:_**
 Результат оформить в виде репозитория на гитхабе.
 
-### Решение 1
+### Решение 
+### - The first way
 * Use the Tkinter GUI, create a window and then select the csv file to use to study. Read csv file.
 * The list of records obtained when reading the file is again glued into one line
 * String length as determined by the len () function
