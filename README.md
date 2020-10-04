@@ -42,4 +42,4 @@
 * All matches are searched using the re.findall() method
 
 ### Compare
-* With "the first way", we can read many different csv files without changing the filename in the code in "the second way".
+* With "the first way", we can read many different csv files without changing the filename in the code like in "the second way".
