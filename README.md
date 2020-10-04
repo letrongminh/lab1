@@ -19,4 +19,11 @@
 > **_ВАЖНО:_**
 Результат оформить в виде репозитория на гитхабе.
 
-
+### Решение 1
+* Use the Tkinter GUI, create a window and then select the csv file to use to study. Read csv file.
+* The list of records obtained when reading the file is again glued into one line
+* String length as determined by the len () function
+* The count function returns the number of occurrences of the desired object (spaces, punctuation ...)
+* Using the re module, a search for words and sentences is performed:
+** Words are found using the pattern: (\ w + '\ w +) | (\ w + - \ w +' \ w +) | (\ w + - \ w + '\ w) | \ w +
+** Sentences are defined using the pattern: ([A-Z] [^ \.!?] * [\.!?])
