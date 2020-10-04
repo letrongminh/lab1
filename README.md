@@ -25,5 +25,5 @@
 * String length as determined by the len () function
 * The count function returns the number of occurrences of the desired object (spaces, punctuation ...)
 * Using the re module, a search for words and sentences is performed:
-** Words are found using the pattern: (\ w + '\ w +) | (\ w + - \ w +' \ w +) | (\ w + - \ w + '\ w) | \ w +
-** Sentences are defined using the pattern: ([A-Z] [^ \.!?] * [\.!?])
+*   Words are found using the pattern: `(\ w + '\ w +) | (\ w + - \ w +' \ w +) | (\ w + - \ w + '\ w) | \ w +`
+*   Sentences are defined using the pattern: `([A-Z] [^ \.!?] * [\.!?])`
