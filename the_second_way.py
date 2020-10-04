@@ -6,7 +6,7 @@ punctuation_marks = 0
 number_of_sentences = 0
 words = 0
 try:
-    open_file = open("hoc_file_csv.csv","r", encoding="utf-8")
+    open_file = open("steam_description_data.csv","r", encoding="utf-8")
     csv_reader = csv.reader(open_file)
     for line in csv_reader:
         characters = ",".join(line)
