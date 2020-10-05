@@ -1,13 +1,11 @@
 import tkinter as tk
 from tkinter import filedialog
-import pandas as pd
 root = tk.Tk()
 import csv
 import re
 canvas1 = tk.Canvas(root, width=300, height=300, bg='lightsteelblue2', relief='raised')
 canvas1.pack()
 def getCSV():
-    global df
     all_char = 0
     spaces = 0
     punctuation_marks = 0
