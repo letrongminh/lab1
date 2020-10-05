@@ -19,7 +19,7 @@ def getCSV():
             all_char += len(characters)
             spaces += characters.count(" ")
             punctuation_marks += characters.count(".") + characters.count(",") + characters.count("?") + characters.count("(") + characters.count(")") + characters.count(";") + characters.count("-") + characters.count("_") + characters.count(":") + characters.count("/") + characters.count("\'") + characters.count("\"")
-            words += len(re.findall(r"(\w+|\w+'\w+)|(\w+-\w+'\w+)|(\w+-\w+'\w)", characters))
+            words += len(re.findall(r"(\w+'\w+)|(\w+-\w+'\w+)|(\w+-\w+'\w)|\w+", characters))
 
             number_of_sentennces += len(re.findall(r"([A-Z][^\.!?]*[\.!?])", characters))
         print("Total number of characters:", all_char)
