@@ -9,7 +9,7 @@ canvas1 = tk.Canvas(root, width=300, height=300, bg='lightsteelblue2', relief='r
 canvas1.pack()
 
 
-def getCSV():
+def get_csv():
     all_char = 0
     spaces = 0
     punctuation_marks = 0
@@ -38,7 +38,7 @@ def getCSV():
         print("Number of words:", words)
         print("Number of sentences:", number_of_sentennces)
 
-browseButton_CSV = tk.Button(text="      Import CSV File     ", command=getCSV, bg='green', fg='white',
+browse_button_csv = tk.Button(text="      Import CSV File     ", command=get_csv, bg='green', fg='white',
                              font=('helvetica', 12, 'bold'))
-canvas1.create_window(150, 150, window=browseButton_CSV)
+canvas1.create_window(150, 150, window=browse_button_csv)
 root.mainloop()
