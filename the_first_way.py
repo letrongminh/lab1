@@ -28,8 +28,8 @@ def getCSV():
                 + characters.count("/") + characters.count("\'") + characters.count("\"")
             
             words += len(re.findall(r"(\w+'\w+)|(\w+-\w+'\w+)|(\w+-\w+'\w)|\w+", characters))
-
             number_of_sentennces += len(re.findall(r"([A-Z][^\.!?]*[\.!?])", characters))
+            
         print("Total number of characters:", all_char)
         #print("spaces:", spaces)
         print("Total number of characters without spaces:", all_char - spaces)
